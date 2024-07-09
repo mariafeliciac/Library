@@ -1,0 +1,28 @@
+<Library>
+  <Users>
+    <User UserId="1" Role="Admin" Username="felicia" Password="1234" />
+    <User UserId="2" Role="User" Username="maria" Password="1234" />
+  </Users>
+  <Books>
+    <Book BookId="1" Title="a" AuthorName="a" AuthorSurname="a" PublishingHouse="a" Quantity="2" />
+    <Book BookId="2" Title="b" AuthorName="b" AuthorSurname="b" PublishingHouse="b" Quantity="2" />
+    <Book BookId="3" Title="q" AuthorName="q" AuthorSurname="q" PublishingHouse="q" Quantity="1" />
+    <Book BookId="4" Title="e" AuthorName="e" AuthorSurname="e" PublishingHouse="e" Quantity="1" />
+    <Book BookId="5" Title="g" AuthorName="g" AuthorSurname="g" PublishingHouse="g" Quantity="1" />
+    <Book BookId="6" Title="w" AuthorName="w" AuthorSurname="w" PublishingHouse="w" Quantity="2" />
+    <Book BookId="7" Title="x" AuthorName="x" AuthorSurname="x" PublishingHouse="x" Quantity="1" />
+  </Books>
+  <Reservations>
+    <Reservation Id="1" UserId="2" BookId="1" StartDate="05/03/2024" EndDate="22/03/2024" />
+    <Reservation Id="2" UserId="1" BookId="2" StartDate="02/04/2024" EndDate="03/04/2024" />
+    <Reservation Id="3" UserId="1" BookId="1" StartDate="02/04/2024" EndDate="24/04/2024" />
+    <Reservation Id="4" UserId="1" BookId="6" StartDate="04/03/2024" EndDate="04/04/2024" />
+    <Reservation Id="5" UserId="1" BookId="3" StartDate="04/04/2024" EndDate="04/05/2024" />
+    <Reservation Id="6" UserId="2" BookId="1" StartDate="04/04/2024" EndDate="04/05/2024" />
+    <Reservation Id="7" UserId="2" BookId="6" StartDate="04/03/2024" EndDate="04/04/2024" />
+    <Reservation Id="8" UserId="1" BookId="6" StartDate="03/04/2024" EndDate="10/04/2024" />
+    <Reservation Id="9" UserId="2" BookId="6" StartDate="07/04/2024" EndDate="07/05/2024" />
+    <Reservation Id="10" UserId="1" BookId="6" StartDate="11/04/2024" EndDate="11/05/2024" />
+    <Reservation Id="11" UserId="2" BookId="7" StartDate="11/04/2024" EndDate="11/04/2024" />
+  </Reservations>
+</Library>

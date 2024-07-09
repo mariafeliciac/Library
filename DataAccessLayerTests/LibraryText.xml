@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library>
+  <Users>
+    <User UserId="1" Role="Administrator" Username="felicia" Password="1234" />
+    <User UserId="2" Role="User" Username="maria" Password="1234" />
+  </Users>
+  <Books>
+    <Book BookId="1" Title="a" AuthorName="a" AuthorSurname="a" PublishingHouse="a" Quantity="1" />
+    <Book BookId="2" Title="b" AuthorName="b" AuthorSurname="b" PublishingHouse="b" Quantity="1" />
+    <Book BookId="3" Title="c" AuthorName="c" AuthorSurname="c" PublishingHouse="c" Quantity="1" />
+    <Book BookId="4" Title="d" AuthorName="d" AuthorSurname="d" PublishingHouse="d" Quantity="1" />
+  </Books>
+  <Reservations>
+    <Reservation Id="1" UserId="2" BookId="1" StartDate="05/03/2024" EndDate="22/03/2024" />
+    <Reservation Id="2" UserId="1" BookId="2" StartDate="02/04/2024" EndDate="03/04/2024" />
+    <Reservation Id="3" UserId="1" BookId="1" StartDate="02/04/2024" EndDate="02/05/2024" />
+    <Reservation Id="4" UserId="1" BookId="3" StartDate="04/04/2024" EndDate="04/05/2024" />
+  </Reservations>
+</Library>
